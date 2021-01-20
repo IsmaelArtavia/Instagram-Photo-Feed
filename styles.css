@@ -1,0 +1,72 @@
+body {
+	background:whitesmoke;
+	margin: 0;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header{
+	background: white;
+	padding: 10px;
+}
+
+header h1{
+     margin: 0;
+}
+
+div.post{
+	background: white;
+    margin-top:10px;
+}
+
+div.post img {
+     width: 100%;
+}
+div.post .post-header div:first-child {
+ display: inline-block;
+ width: 80%;
+ 
+}
+
+div.post .post-header div:last-child {
+
+ width: 20%;
+ padding: 10px;
+ text-align: right;
+ color:gray;
+ display: flex;
+
+
+ 
+}
+
+div.post h2, div.post p{
+	padding: 10px;
+	margin: 0;
+}
+
+div.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-grow: 100%;
+    justify-content: center;
+}
+
+
+/*se debio hacer otro div ya que first y second child no lo cargan*/
+div.derecha {
+     display: flex;
+     text-align: right;
+     align-items: top;
+
+}
+
+/*.headercas{
+display: flex;     
+justify-content: space-between;     
+padding-right: 30px;     
+padding-left: 30px;
+}*/
